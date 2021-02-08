@@ -1,0 +1,85 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//tailwindcss 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hidder {
+    display: block;
+    @media (max-width: 1024px) {
+        display: none;
+    }
+}
+.main-title-container{
+    min-width: 300px;
+}
+.view-more-btn {
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.content-conatiner {
+    min-height: 150px;
+    text-align: center;
+    padding: 2px;
+}
+
+.post-page-container {
+    margin-top: 2vh;
+    align-self: center;
+    overflow: auto;
+    height: 80vh;
+}
+
+.post-item-container {
+    max-width: 1224px;
+    min-width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.main-container{
+    height: 84vh;
+    width: 100%;
+}
+ ::-webkit-scrollbar {
+     width: 5px;
+     height: 5px;
+     border-radius: 30px;
+ }
+
+ /* Track */
+ ::-webkit-scrollbar-track {
+     background: #d6dce8;
+ }
+
+ /* Handle */
+ ::-webkit-scrollbar-thumb {
+     background: rgb(184, 198, 211);
+     border-radius: 30px;
+ }
+
+ /* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+     background: rgb(145, 182, 220);
+ }
