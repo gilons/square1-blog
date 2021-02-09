@@ -62,3 +62,7 @@ Assuming that we are a linux environment.
 
 
 ``` php artisan serve ```
+
+Any cache driver can be configured to run with the project. the default is the file.
+
+Hope it works for you. 
