@@ -28,16 +28,37 @@ The project runs on laravel 8.12 and this version of laravel works only with php
 ### composer.phar or composer2.0 
 
 ## Running project 
-Assuming that we are a linux environment.
-```git clone https://github.com/gilons/square1-blog.git```
-``` cd square1-blog``` 
-``` composer install ```
-``` npm install ```
+Assuming that we are a linux environment.  
+
+```git clone https://github.com/gilons/square1-blog.git```  
+
+``` cd square1-blog```   
+
+
+``` composer install ```  
+
+
+``` npm install ```  
+
+
 ``` php artisan key:generate```
+
+
  create a .env from the .env.example file and add in your database credentials 
+ 
 ```php artisan migrate ``` 
+
+
 ``` php artisan posts:init ``` 
+
+
 ``` composer dump-autoload ``` 
+
+
 ``` php artisan optimize ``` 
+
+
 ``` npm run dev ``` 
+
+
 ``` php artisan serve ```
