@@ -40,7 +40,7 @@ Assuming that we are a linux environment.
 
 ``` npm install ```  
 
- _ create a .env from the .env.example file and add in your database credentials _
+ **create a .env from the .env.example file and add in your database credentials**
  
 
 ``` php artisan key:generate```
