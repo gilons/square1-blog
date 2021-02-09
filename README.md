@@ -40,11 +40,11 @@ Assuming that we are a linux environment.
 
 ``` npm install ```  
 
+ ***create a .env from the .env.example file and add in your database credentials ***
+ 
 
 ``` php artisan key:generate```
 
-
- create a .env from the .env.example file and add in your database credentials 
  
 ```php artisan migrate ``` 
 
