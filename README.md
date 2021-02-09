@@ -10,7 +10,7 @@ Implementation of a blogging platform(Text only) where people can signIn/Login, 
 The performance issue related to the feed server is handled by the implementation of a PHP artisan command with is ran just once in the lifetime of the application.
 The role of the command is to collect the desired posts from the ResT end-point and add them to the application's database. 
 
-Performance issues related to high traffic on the application are handled by using Laravel caching system. The application relies heavily on caching. The only thing which is not cached in search results. The application relies on Laravel Observer to update its cache. It listens to changes (created_at, updateed_at) on the post model and triggers a refresh of the cache. 
+Performance issues related to high traffic on the application are handled by using Laravel caching system. The application relies heavily on caching. The only thing which is not cached in search results. The application relies on Laravel Observer to update its cache. It listens to changes (created_at, updated_at) on the post model and triggers a refresh of the cache. 
 
 I have added a search functionality that enables the user to search for posts by title, content/description and, user_name at the same time. This is very handy if you want to know the posts create by users having a particular name and to also filter the posts by any of those fields. It should be noted that the search is performed efficiently and with performance using eloquent query builder.  
 
