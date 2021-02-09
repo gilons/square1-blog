@@ -14,7 +14,7 @@ Performance issues related to high traffic on the application are handled by usi
 
 I have added a search functionality that enables the user to search for posts by title, content/description and, user_name at the same time. This is very handy if you want to know the posts create by users having a particular name and to also filter the posts by any of those fields. It should be noted that the search is performed efficiently and with performance using eloquent query builder.  
 
-The application is SEO optimized and benchmarked using google lighhouse.
+The application is SEO optimized and benchmarked using google Lighthouse.
 
 ### front-end
 The front-end is built heavily with tailwindcss and vuejs, blade for SEO pages, and SASS to write raw styles.
