@@ -15,13 +15,9 @@ try {
 
 
 import Vue from "vue"
-import VueMeta from "vue-meta"
 import router from "./router"
 import VueRouter from "vue-router"
 
-Vue.use(VueMeta, {
-    refreshOnceOnNavigation: true
-})
 
 Vue.use(VueRouter)
 
