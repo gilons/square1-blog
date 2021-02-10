@@ -21,11 +21,6 @@ The front-end is built heavily with tailwindcss and vuejs, blade for SEO pages, 
 It's built with a mobile-first design in mind. It's SPA. 
 navigation is mainly handled using vue-router. 
 
-## Prerequisits
-### PHP8: 
-The project runs on laravel 8.12 and this version of laravel works only with php8 
-
-### composer.phar or composer2.0 
 
 ## Running project 
 Assuming that we are a linux environment.  
